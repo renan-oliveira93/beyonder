@@ -1,0 +1,15 @@
+version: "3.4"
+
+services:
+  dr_doom:
+    build:
+      context: ./dr_doom # diretório onde está o Dockerfile do backend
+    ports:
+      - "8000:8000"
+  ultron:
+    # Renomeando o serviço para 'ultron'
+    build:
+      context: ./ultron # diretório onde está o Dockerfile do frontend
+    ports:
+      - "3000:3000"
+    command: yarn dev # comando para iniciar o Next.js em modo de desenvolvimento
