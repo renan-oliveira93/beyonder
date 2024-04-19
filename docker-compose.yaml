@@ -6,9 +6,11 @@ services:
       context: ./dr-doom
     ports:
       - "8000:8000"
+    network_mode: host
   ultron:
     build:
       context: ./ultron
     ports:
       - "3000:3000"
     command: yarn dev
+    network_mode: host
