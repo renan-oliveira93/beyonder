@@ -1,6 +1,6 @@
 [submodule "ultron"]
 	path = ultron
-	url = git@github.com-personal:renan-oliveira93/ultron.git
+	url = git@github.com:renan-oliveira93/ultron.git
 [submodule "dr-doom"]
 	path = dr-doom
-	url = git@github.com-personal:renan-oliveira93/dr-doom.git
+	url = git@github.com:renan-oliveira93/dr-doom.git
